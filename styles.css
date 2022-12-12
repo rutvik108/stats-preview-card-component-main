@@ -61,16 +61,16 @@ img{
  section{
     flex-direction: column-reverse;
     display: flex;
-    width:380px;
+    width:300px;
     
  }
  img{
 
-    min-width:380px;  
+    min-width:300px;  
     border-radius:20px 20px 0 0;
  }
  .data{
-    min-width:340px;
+    min-width:260px;
     padding:20px;
     text-align: center;
     border-radius:0 0 20px 20px;
@@ -90,7 +90,7 @@ img{
     font-size: 1.5rem;
 }
 .stat:hover{
-    -webkit-transform: scale(1.2);
+    -webkit-transform: scale(1.1);
 }
 }
 

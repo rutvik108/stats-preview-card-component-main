@@ -11,8 +11,7 @@ main{
     display: flex;
     align-items: center;
     justify-content: center;
-      min-width: fit-content;
-    min-height:500px;
+    min-height:1500px;
     padding: 10%;
     background-color:  hsl(233, 47%, 7%);
 }
@@ -63,10 +62,6 @@ img{
  
 }
 @media (max-width:500px){
-    main{
-        max-width:400px;
-    }
-  
     section{
      text-align: center;
     flex-direction:column-reverse;

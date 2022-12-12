@@ -11,7 +11,7 @@ main{
     display: flex;
     align-items: center;
     justify-content: center;
-    min-height:600px;
+    min-height:500px;
     padding:10%;
     background-color: hsl(233, 47%, 7%);
 }
@@ -33,13 +33,14 @@ h1{
     font-weight:900;
     color:hsl(0, 0%, 100%);
     font-size: 2rem;
+    margin-bottom: 50px;
 }
 .dataspan{
     color: hsl(277, 64%, 61%);
 }
 p{
     color:white;
-   
+    margin-bottom:50px ;
     font-family: Lexend Deca;
 }
 .detail{
@@ -63,15 +64,17 @@ img{
 @media (max-width:500px){
   
     section{
-     
+     text-align: center;
     flex-direction:column-reverse;
     width:300px;  
     }
     h1{
         font-size: 1rem;
+        margin-bottom: 20px;
     }
     p{
         font-size:10px;
+        margin-bottom: 20px;
     }
     .data{
        max-width:250px ;
@@ -88,13 +91,16 @@ img{
        
     }
     .detail{
+        display: flex;
+        align-items: center;
+        justify-content: center;
         flex-direction: column;
+        margin-bottom:20px ;
     }
     .details{
-        margin: 0 auto 0 auto;
+     margin: 0 auto;
     }
     .details:hover{
       transform: scale(1.1);
     }
 }
-

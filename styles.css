@@ -90,7 +90,7 @@ img{
     font-size: 1.5rem;
 }
 .stat:hover{
-    -webkit-transform: scale(1.1);
+    -webkit-transform: scale(1.2);
 }
 }
 

@@ -11,8 +11,8 @@ main{
     display: flex;
     align-items: center;
     justify-content: center;
-    min-height: 1500px; 
-    min-width: 1500px;
+    min-height:500px; 
+    min-width:500px;
     padding: 10%;
     background-color:  hsl(233, 47%, 7%);
 }
@@ -71,11 +71,11 @@ img{
     }
     h1{
         font-size: 1rem;
-        margin-bottom: 20px;
+        margin-bottom:20px;
     }
     p{
         font-size:10px;
-        margin-bottom: 20px;
+        margin-bottom:20px;
     }
     .data{
        max-width:250px ;

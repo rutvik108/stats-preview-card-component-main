@@ -1,77 +1,96 @@
-
 *{
     padding: 0;
+    margin:0;
+   
+    /* hsl(233, 47%, 7%) */
 }
 body{
-    background-color: hsl(30, 38%, 92%);
+    background-color:hsl(233, 47%, 7%);
 }
 main{
     display: flex;
     align-items: center;
     justify-content: center;
-    min-height: 600px; 
-    padding: 10%;
+    min-height: 700px;
+    padding: 10%;  
 }
 section{
     display: flex;
-    flex-direction: row;
-    
-    width: 600px;
-    text-align: left;
+    width: 2000px;;
+
 }
-img{
-    max-width:300px;
-    border-top-left-radius:20px;
-    border-bottom-left-radius: 20px
+.data{
+min-width:800px;
+padding:100px;
+border-radius:20px 0 0 20px;
+background-color:  hsl(244, 38%, 16%);
 }
-.product-desc{
-    padding:30px;
-    background-color: white;
-    border-top-right-radius:20px;
-    border-bottom-right-radius: 20px
-    
+h1{
+    font-family: inter;
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 50px;
+    color:hsl(0, 0%, 100%);
 }
-.category{
-  font-family: Montserrat;
-  color:#454545;
+.dataspan{
+    color:hsl(277, 64%, 61%);
 }
 p{
-    
-    color: #454545;
+    font-family:'Lexend', Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    font-weight: 100;
+    color:hsla(0, 0%, 100%, 0.75);
+    margin-bottom:50px;
 }
-.prices{
-
-margin-bottom: 20px ;
-}
-.sale-price{
-    font-size:1.5rem;
-    font-weight: bold;
-    color:#3e9c35;
-    margin-right: 30px;
-}
-.list-price{
- text-decoration: line-through;
-}
-button{
-width: 90%;
-height: 50px;
-color: white;
-background-color: #3e9c35;
-border-radius: 200px;
-}
-
-@media (max-width:1000px){
-section{
+.detail{
     display: flex;
-    flex-direction: column;
-    align-content: center;
-    justify-content: center;
-    width: 300px;
+}
+.stat{
+    margin: 0 auto;
+}
+h1#stath{
+    margin-top:50px ;
+    font-size: 2rem;
+    color:hsla(0, 0%, 100%, 0.6);
 }
 img{
-    border-radius: 20px;
+   min-width:1000px;
+   border-radius:0 20px 20px 0 ;
 }
-.product-desc{
-    border-radius: 20px;
+@media (max-width:500px){
+ section{
+    flex-direction: column-reverse;
+    display: flex;
+    width:380px;
+    
+ }
+ img{
+
+    min-width:380px;  
+    border-radius:20px 20px 0 0;
+ }
+ .data{
+    min-width:340px;
+    padding:20px;
+    text-align: center;
+    border-radius:0 0 20px 20px;
+ }
+ h1{
+    font-size:1.5rem;
+    margin-bottom:40px;
+ }
+ p{
+    font-size: 0.8rem;
+ }
+ .detail{
+    flex-direction: column;
+ }
+ h1#stath{
+    margin-top:0 ;
+    font-size: 1.5rem;
+}
+.stat:hover{
+    -webkit-transform: scale(1.1);
 }
 }
+

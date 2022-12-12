@@ -11,8 +11,8 @@ main{
     display: flex;
     align-items: center;
     justify-content: center;
-    min-height:500px; 
-    min-width:500px;
+      min-width: fit-content;
+    min-height:500px;
     padding: 10%;
     background-color:  hsl(233, 47%, 7%);
 }
